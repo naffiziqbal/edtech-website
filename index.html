@@ -16,8 +16,8 @@
   <!-- Header Section -->
   <header>
     <!-- Nav Section -->
-    <section>
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <section id="home">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top ">
         <div class="container">
           <a class="navbar-brand text-uppercase fw-bold" href="#">iqbal Accademy</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -30,7 +30,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Course</a>
+                <a class="nav-link" href="#course">Course</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Deals</a>
@@ -39,7 +39,7 @@
                 <a class="nav-link ">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ">About</a>
+                <a class="nav-link " href="#footer">About</a>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@
       </nav>
     </section>
     <!-- Header Slider  -->
-    <section>
+    <section class="pt-5">
       <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -94,7 +94,7 @@
 
   <main class=" container mt-5 pt-5">
     <!-- Course Outline Header  -->
-    <section>
+    <section id="course">
       <div class="text-center">
         <h3>Explore Our Popupar Corses</h3>
         <p> Our Courses are top Courses of This Era! Grab Yours Now</p>
@@ -314,7 +314,7 @@
     </section>
 
     <!-- FAQ -->
-    <section class="pt-5">
+    <section class="pt-5 pb-3">
       <div class="title text-center">
       <h2>  Freequently Asked Questions</h2>
       <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
@@ -370,7 +370,7 @@
       </div>
     </section>
     <!-- Trusted Partner  -->
-    <section class="pt-5 d-none d-lg-block text-center">
+    <section class="pt-5 pb-5 d-none d-lg-block text-center">
       <h3 class="pb-3 ">Trusted By Over 100+ Companies</h3>
       <div class="row">
         <div class="col"><img src="./images/company/company-1.png" alt=""></div>
@@ -384,42 +384,11 @@
   </main>
 
   <!-- Footer Section -->
-  <footer class="bg-dark text-white ">
-    <!-- <header class="container d-flex pt-5 ">
-      <div class="brand container text-uppercase ">
-        <h3 ><a class="text-decoration-none text-light" href="#home">Iqbal Accademy</a></h3>
-      </div>
-      <div class="address">
-        <address>
-          Office 41, Zawaya Buildin, Ghala Muscat, 
-  Sultanate of Oman
-        </address>
-      </div>
-      <hr>
-    </header>
-    <main class="container ">
-      <form action="#" class="">
-        <div class="mb-3  d-flex">
-          <label for="" class="form-label"></label>
-          <input type="text"
-            class="form-control w-50" name="" id="" aria-describedby="helpId" placeholder="Enter Your Email">
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <br>
-        </div>
-        <small id="helpId" class="form-text text-muted">Enter Email to Subscribe Newsletter</small>
-      </form>
-    </main>
-<section>
-  <div class="social-link text-center p-5">
-     <a href="https://facebook.com" class="text-light m-2 "><i class="fa fa-facebook fa-xl"></i></a>
-     <a href="htpps://instagram.com" class="text-light m-2 "> <i class="fa fa-instagram fa-xl"></i></a>
-     <a href="htpps://instagram.com" class="text-light m-2 "> <i class="fa fa-twitter fa-xl"></i></a>
-  </div>
-</section> -->
+  <footer class="bg-dark text-white " id="footer">
 <div class="container text-center p-5">
   <div class="row">
     <div class="col">
-      <h3><a href="#main" class="text-uppercase text-decoration-none text-light">iqbal acccademy </a></h3>
+      <h3><a href="#home" class="text-uppercase text-decoration-none text-light">iqbal acccademy </a></h3>
       <address>Office 41, Zawaya Buildin, Ghala Muscat, 
         Sultanate of Oman</address>
         <div class="social-link text-center p-5">
@@ -431,12 +400,7 @@
   </div>
 </div>
   </footer>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
-  </script>
-  <script>
-    $('#myModal').modal(options)
   </script>
 </body>
 
