@@ -4,3 +4,7 @@ header img{
    filter: brightness(50%);
    -webkit-filter: brightness(50%);
 }
+
+.info-section {
+   background: #F4FAFD;
+}
