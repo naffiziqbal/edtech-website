@@ -259,22 +259,66 @@
         </div>
       </div>
     </section>
-  <!-- <section>
-    <div class="info-section d-flex justify-content-center  align-items-center flex-wrap ">
+    <!-- Joining Section  -->
+    <section class=" mt-5 pt-5 d-flex justify-content-around bg-info flex-wrap text-center text-lg-start">
       <div class="left ">
-        <img src="./images/working.png" alt="" class="img-fluid">
+        <h3>Ready to Join</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
       </div>
-      <div class="right w-50">
-        <h3>Explore The Universe of Digital Course</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, iusto quam. Ex aliquam, corporis recusandae mollitia corrupti officiis unde explicabo minus nesciunt eligendi vitae culpa id asperiores voluptatum quo sunt.</p>
+      <div class="right">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Sign Up Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
       </div>
-    </div>
-  </section> -->
-  
+      
+    </section>
   </main>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script>
+    $('#myModal').modal(options)
+  </script>
 </body>
 
 </html>
