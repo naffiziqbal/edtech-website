@@ -1,0 +1,6 @@
+header img{
+    width: auto;
+   max-height: 100vh;
+   filter: blur(2px);
+   -webkit-filter: blur(2px);
+}
